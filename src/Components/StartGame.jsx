@@ -1,18 +1,19 @@
 import React from "react";
 import styled from "styled-components"
 import { Button } from "../Styled/Button";
-const StartGame = ({toggleGame}) => {
+import dices from "../assets/images/dices.png"
+const StartGame = ({ toggleGame }) => {
   return (
     <Container>
-        <div>
-           <img src="/images/dices.png" alt="" />
-        </div>
-        <div className="content">
-            <h1>Dice Game</h1>
-            <Button onClick={toggleGame}>play now</Button>
-        </div>
+      <div>
+        <img src={dices} alt="not found" />
+      </div>
+      <div className="content">
+        <h1>Dice Game</h1>
+        <Button onClick={toggleGame}>play now</Button>
+      </div>
     </Container>
-    
+
   )
 }
 
