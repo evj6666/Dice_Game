@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+
 
 # React Project - Dice Game
 <img width="1154" alt="Diegame" src="https://github.com/evj6666/FoodyZone/assets/121512966/49116b0e-8de5-452c-a915-0dbfffa66ddd">
